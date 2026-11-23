@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anton Persson Stache - CV</title>
+  <meta name="description" content="CV / Curriculum vitae">
+  <link rel="preload" href="data.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+
+  <div class="controls">
+    <button id="lang-btn" type="button"></button>
+    <button id="theme-btn" type="button"></button>
+  </div>
+
+  <div class="paper">
+    <div class="bar"></div>
+    <div class="inner">
+      <h1 id="name"></h1>
+      <div class="layout">
+        <aside>
+          <h2 id="h-details"></h2>
+          <dl id="details"></dl>
+          <h2 id="h-skills"></h2>
+          <ul class="skills" id="skills"></ul>
+        </aside>
+        <main>
+          <section>
+            <h2 id="h-profile"></h2>
+            <p id="profile"></p>
+          </section>
+          <section>
+            <h2 id="h-education"></h2>
+            <div id="education"></div>
+          </section>
+          <section>
+            <h2 id="h-tech"></h2>
+            <div id="tech"></div>
+          </section>
+          <section>
+            <h2 id="h-certs"></h2>
+            <div id="certs"></div>
+          </section>
+          <section>
+            <h2 id="h-work"></h2>
+            <div id="work"></div>
+          </section>
+          <section>
+            <h2 id="h-hobbies"></h2>
+            <ul class="hobbies" id="hobbies"></ul>
+          </section>
+        </main>
+      </div>
+    </div>
+    <div class="bar bottom"></div>
+  </div>
+
+</body>
+
+</html>

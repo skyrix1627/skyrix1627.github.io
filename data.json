@@ -1,0 +1,224 @@
+{
+  "shared": {
+    "name": "Anton Persson Stache",
+    "email": "antonperssonstache@gmail.com",
+    "phone": "0733226168",
+    "address": [
+      "Granelidsvägen 27",
+      "75655 Uppsala"
+    ],
+    "skills": [
+      {
+        "sv": "Ekonomiansvar",
+        "en": "Financial responsibility",
+        "level": 2
+      },
+      {
+        "sv": "Företagande",
+        "en": "Entrepreneurship",
+        "level": 2
+      },
+      {
+        "sv": "Programmering",
+        "en": "Programming",
+        "level": 3
+      },
+      {
+        "sv": "Webbutveckling",
+        "en": "Web Development",
+        "level": 3
+      },
+      {
+        "sv": "Webbserverprogrammering",
+        "en": "Web server programming",
+        "level": 2
+      }
+    ],
+    "tech": [
+      {
+        "sv": "Programmeringsspråk",
+        "en": "Programming Languages",
+        "items": [
+          "Python",
+          "Java",
+          "C#",
+          "JavaScript",
+          "GDScript"
+        ]
+      },
+      {
+        "sv": "Webbutveckling & Ramverk",
+        "en": "Web Development & Frameworks",
+        "items": [
+          "Node.js",
+          "Express",
+          "Next.js",
+          "React",
+          "HTML",
+          "CSS",
+          "Tailwind",
+          "JSON",
+          "Playwright"
+        ]
+      },
+      {
+        "sv": "Verktyg",
+        "en": "Tools",
+        "items": [
+          "Git",
+          "VS Code",
+          "Godot",
+          "PyGame"
+        ]
+      }
+    ]
+  },
+  "sv": {
+    "ui": {
+      "langBtn": "English",
+      "themeLight": "Mörkt läge",
+      "themeDark": "Ljust läge",
+      "pageTitle": "CV"
+    },
+    "headings": {
+      "details": "Personuppgifter",
+      "skills": "Färdigheter",
+      "profile": "Profil",
+      "education": "Utbildning",
+      "certs": "Certifikat",
+      "work": "Arbetslivserfarenhet",
+      "tech": "Tekniska kunskaper",
+      "hobbies": "Hobbys och intressen"
+    },
+    "labels": {
+      "name": "Namn",
+      "email": "E-postadress",
+      "phone": "Telefonnummer",
+      "address": "Adress",
+      "birth": "Födelsedatum",
+      "license": "Körkort",
+      "gender": "Kön"
+    },
+    "details": {
+      "birth": "28 mars 2007",
+      "license": "B-körkort",
+      "gender": "Man"
+    },
+    "profile": "Ambitiös, ansvarstagande och målmedveten 19-åring som söker heltids- eller deltidsarbete. Jag är en noggrann och flexibel person som trivs med att arbeta både självständigt och tillsammans med andra. Jag har lätt för att lära mig nya saker, anpassa mig till olika situationer och ta mig an nya arbetsuppgifter. Jag är punktlig, tar gärna ansvar och strävar alltid efter att utföra mitt arbete på bästa möjliga sätt. Jag söker en arbetsplats där jag kan utvecklas, få värdefull arbetslivserfarenhet och bidra med engagemang och en positiv inställning.",
+    "education": [
+      {
+        "title": "Teknikprogrammet",
+        "org": "NTI Gymnasiet, Uppsala",
+        "date": "aug 2023 – jun 2026",
+        "text": "Treårigt gymnasium med inriktning informations- och medieteknik, samt vidare inriktning software. Gav grundläggande kunskaper inom datorer, programmering och webbserverprogrammering. Drev även ett UF-företag i ett år under kursen entreprenörskap, vilket gav mig praktisk erfarenhet av företagande, programmering och kundbemötande."
+      },
+      {
+        "title": "Gymnasieingenjör",
+        "org": "NTI Gymnasiet, Uppsala",
+        "date": "aug 2026 – pågående",
+        "text": "Ettårig teknisk påbyggnadsutbildning (TE4) med inriktning mot mjukvarudesign. Utbildningen fokuserar på praktisk systemutveckling, programmering, problemlösning och teamarbete i verklighetsnära projekt. Den omfattar även tio veckors arbetsplatsförlagt lärande (APL) inom IT-branschen."
+      }
+    ],
+    "certs": [
+      {
+        "title": "SvFF D",
+        "date": "jun 2024",
+        "text": "Grundläggande tränarutbildning inom fotboll, utfärdad av Svenska Fotbollförbundet (SvFF)."
+      }
+    ],
+    "work": [
+      {
+        "title": "Vaktmästare",
+        "org": "Uppsala Kommun - Valsätraskolan, Uppsala",
+        "date": "jul 2023 – jul 2023",
+        "text": "Arbetade som vaktmästare på Valsätraskolan i Uppsala under sommaren. Arbetsuppgifterna bestod av underhåll av skolans lokaler och förberedelser inför det kommande läsåret."
+      },
+      {
+        "title": "Egenföretagare - Ekonomiansvarig",
+        "org": "Rookie Startup, Uppsala",
+        "date": "jun 2024 – aug 2025",
+        "text": "Drev ett eget företag tillsammans med klasskamrater under två somrar genom Rookie Startup. Arbetet gav mig praktisk erfarenhet av företagande, ekonomiansvar, kundbemötande och samarbete. Vi valde dessutom att fortsätta driva företaget efter det ordinarie tre veckor långa programmet."
+      }
+    ],
+    "hobbies": [
+      "Bilar",
+      "Fotboll",
+      "Golf",
+      "Träning"
+    ]
+  },
+  "en": {
+    "ui": {
+      "langBtn": "Svenska",
+      "themeLight": "Dark mode",
+      "themeDark": "Light mode",
+      "pageTitle": "CV"
+    },
+    "headings": {
+      "details": "Personal details",
+      "skills": "Skills",
+      "profile": "Profile",
+      "education": "Education",
+      "certs": "Certificates",
+      "work": "Work experience",
+      "tech": "Technical skills",
+      "hobbies": "Hobbies and interests"
+    },
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "birth": "Date of birth",
+      "license": "Driving licence",
+      "gender": "Gender"
+    },
+    "details": {
+      "birth": "28 March 2007",
+      "license": "Category B licence",
+      "gender": "Male"
+    },
+    "profile": "Ambitious, responsible and motivated 19-year-old seeking full-time or part-time employment. I am a reliable and detail-oriented person who enjoys working both independently and as part of a team. I learn quickly, adapt easily to new situations and am always willing to take on new responsibilities. I am punctual, flexible and committed to doing my best in every task. I am looking for a workplace where I can develop my skills, gain valuable work experience and contribute through my dedication and positive attitude.",
+    "education": [
+      {
+        "title": "Technology Programme",
+        "org": "NTI Gymnasiet, Uppsala",
+        "date": "Aug 2023 – Jun 2026",
+        "text": "Three-year technical programme specialising in Information and Media Technology, with additional studies in software development. The programme provided me with foundational knowledge of computers, programming and web server development. I also ran a Young Enterprise (UF) company for a year during the course entrepreneurship, which deepened my programming skills and taught me customer service."
+      },
+      {
+        "title": "Gymnasieingenjör",
+        "org": "NTI Gymnasiet, Uppsala",
+        "date": "Aug 2026 – ongoing",
+        "text": "A one-year technical programme (TE4) specialising in software design. The focus is on practical system development, programming, problem-solving, and teamwork within projects that mirror real-world scenarios. The program also includes 10 weeks of work-based learning (internship) within the IT industry."
+      }
+    ],
+    "certs": [
+      {
+        "title": "SvFF D",
+        "date": "Jun 2024",
+        "text": "Entry-level football coaching licence, issued by the Swedish Football Association."
+      }
+    ],
+    "work": [
+      {
+        "title": "Caretaker",
+        "org": "Uppsala Municipality – Valsätraskolan, Uppsala",
+        "date": "Jul 2023 – Jul 2023",
+        "text": "Worked as a summer caretaker at Valsätraskolan in Uppsala. Responsibilities included maintaining school facilities and preparing the premises for the upcoming school year."
+      },
+      {
+        "title": "Entrepreneur – Finance Manager",
+        "org": "Rookie Startup, Uppsala",
+        "date": "Jun 2024 – Aug 2025",
+        "text": "Co-founded and ran a company with classmates over two summers through Rookie Startup. This gave me practical experience in entrepreneurship, financial management, taking responsibility and working towards shared goals."
+      }
+    ],
+    "hobbies": [
+      "Cars",
+      "Football",
+      "Golf",
+      "Training"
+    ]
+  }
+}
