@@ -79,7 +79,16 @@ function renderPage() {
   document.documentElement.dataset.theme = currentTheme; // CSS uses this for colors
   document.title = shared.name + " – " + translations.ui.pageTitle;
 
-  getById("name").textContent = shared.name;
+  // Profile picture (removed if no photo is set in data.json)
+  const photoElement = getById("photo");
+  if (photoElement) {
+    if (shared.photo) {
+      photoElement.src = shared.photo;
+      photoElement.alt = translations.ui.photoAlt; // read by screen readers
+    } else {
+      photoElement.remove();
+    }
+  }
 
   // Language button (aria-label is for screen readers)
   getById("lang-btn").textContent = translations.ui.langBtn;
@@ -109,8 +118,6 @@ function renderPage() {
   detailsList.replaceChildren();
   appendDetail(detailsList, translations.labels.name, shared.name);
   appendDetail(detailsList, translations.labels.email, { text: shared.email, href: "mailto:" + shared.email }); // opens email app
-  appendDetail(detailsList, translations.labels.phone, { text: shared.phone, href: "tel:" + shared.phone.replace(/\s/g, "") }); // starts a call, spaces removed
-  appendDetail(detailsList, translations.labels.address, shared.address);
   appendDetail(detailsList, translations.labels.birth, translations.details.birth);
   appendDetail(detailsList, translations.labels.license, translations.details.license);
   appendDetail(detailsList, translations.labels.gender, translations.details.gender);

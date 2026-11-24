@@ -1,12 +1,8 @@
 {
   "shared": {
+    "photo": "images/pfp.jpg",
     "name": "Anton Persson Stache",
     "email": "antonperssonstache@gmail.com",
-    "phone": "0733226168",
-    "address": [
-      "Granelidsvägen 27",
-      "75655 Uppsala"
-    ],
     "skills": [
       {
         "sv": "Ekonomiansvar",
@@ -78,7 +74,8 @@
       "langBtn": "English",
       "themeLight": "Mörkt läge",
       "themeDark": "Ljust läge",
-      "pageTitle": "CV"
+      "pageTitle": "CV",
+      "photoAlt": "Porträtt av Anton Persson Stache"
     },
     "headings": {
       "details": "Personuppgifter",
@@ -152,7 +149,8 @@
       "langBtn": "Svenska",
       "themeLight": "Dark mode",
       "themeDark": "Light mode",
-      "pageTitle": "CV"
+      "pageTitle": "CV",
+      "photoAlt": "Portrait of Anton Persson Stache"
     },
     "headings": {
       "details": "Personal details",
